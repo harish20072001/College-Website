@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+        <div class="nav_links" id="nav_links">
+          <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programs For 2024</h1>
+    </section>
+    <!---Blog Page Content ---->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/certificate.jpg" alt="" />
+          <h2>Our Certificate & Online Programs For 2024</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+            temporibus excepturi quia. Ad ipsa modi ducimus dolor, magni
+            perferendis natus quos, mollitia quia incidunt officia nesciunt odit
+            tempora esse ipsam? Dicta quia inventore temporibus, itaque commodi
+            modi illum aut consequuntur nesciunt nemo officiis corrupti earum
+            <br>
+            perferendis nihil tempora praesentium dolorum cum ullam eum
+            laboriosam rerum neque! Voluptatum facilis sint quos. Id, iusto
+            nemo. Excepturi impedit ipsam ut, id, voluptate recusandae error
+            fugit exercitationem, eligendi aliquid eaque. Veniam nesciunt
+            quaerat nisi veritatis eos praesentium, delectus est autem placeat
+            officia deserunt. Necessitatibus
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+            temporibus excepturi quia. Ad ipsa modi ducimus dolor, magni
+            perferendis natus quos, mollitia quia incidunt officia nesciunt odit
+            tempora esse ipsam? Dicta quia inventore temporibus, itaque commodi
+            modi illum aut consequuntur nesciunt nemo officiis corrupti earum
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+            temporibus excepturi quia. Ad ipsa modi ducimus dolor, magni
+            perferendis natus quos, mollitia quia incidunt officia nesciunt odit
+            tempora esse ipsam? Dicta quia inventore temporibus, itaque commodi
+            modi illum aut consequuntur nesciunt nemo officiis corrupti earum
+            <br>
+            perferendis nihil tempora praesentium dolorum cum ullam eum
+            laboriosam rerum neque! Voluptatum facilis sint quos. Id, iusto
+            nemo. Excepturi impedit ipsam ut, id, voluptate recusandae error
+            fugit exercitationem, eligendi aliquid eaque. Veniam nesciunt
+            quaerat nisi veritatis eos praesentium, delectus est autem placeat
+            officia deserunt. Necessitatibus
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+            temporibus excepturi quia. Ad ipsa modi ducimus dolor, magni
+            perferendis natus quos, mollitia quia incidunt officia nesciunt odit
+            tempora esse ipsam? Dicta quia inventore temporibus, itaque commodi
+            modi illum aut consequuntur nesciunt nemo officiis corrupti earum
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="text" placeholder="Enter Email">
+                <textarea  rows="5" placeholder="Your comment"></textarea>
+                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+          </div>
+
+
+
+
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Catagories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learing</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCad</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----Footer------>
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+        aspernatur rem perferendis
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+      </div>
+      <p>
+        Made With <i class="fa fa-heart-o" aria-hidden="true"></i> by Easy
+        Tutorials
+      </p>
+    </section>
+
+    <!---JAVASCRIPT MENU---->
+    <script>
+      var navLinks = document.getElementById("nav_links");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
